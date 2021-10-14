@@ -52,7 +52,7 @@ import java.util.PriorityQueue;
 import java.util.Vector;
 
 
-public class TflitePlugin implements MethodCallHandler {
+public class TflitePlugin implements FlutterPlugin {
   private final Registrar mRegistrar;
   private Interpreter tfLite;
   private boolean tfLiteBusy = false;
